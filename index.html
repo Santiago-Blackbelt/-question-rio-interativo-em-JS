@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Treino-HTML-CSS-JS</title>
     <link rel="stylesheet" href="style.css" />
     <script src="index.js" defer></script>
   </head>
   <body>
     <main id="container">
       <header id="logo">
-        <h1>QUESTIONARIO</h1>
-        <p>Questionario para pesquisa!</p>
+        <h1>QUESTIONÁRIO</h1>
+        <p>Questionário para pesquisa!</p>
       </header>
 
       <form id="formulario">
@@ -20,7 +20,11 @@
             Escreva 3 características sobre o seu animal de estimação:
           </h2>
           <label for="texto">Digite aqui:</label>
-          <input type="text" id="texto" name="texto" placeholder="Digite Aqui..."
+          <input
+            type="text"
+            id="texto"
+            name="texto"
+            placeholder="Digite aqui..."
           />
           <button id="botao1" type="button">Adicionar texto</button>
           <ul id="texto1"></ul>
@@ -31,9 +35,8 @@
             Data de nascimento do seu animal:
           </h2>
           <label for="data">Selecione a data:</label>
-          <input type="date" id="data" name="data"/>
+          <input type="date" id="data" name="data" />
         </section>
-
 
         <section id="container3">
           <h2 id="pergunta2" name="pergunta2">
@@ -43,30 +46,53 @@
           <input type="file" id="file" name="file" />
         </section>
 
-
         <section id="container4">
           <h2 id="pergunta3">
             Marque as alternativas corretas para o animal escolhido:
           </h2>
           <fieldset id="caixa">
-          <label for="Carnivoro" >Carnivoro</label>
-          <input type="checkbox" name="Carnivoro" id="Carnivoro" value="Carnivoro" />
+            <label for="Carnivoro">Carnívoro</label>
+            <input
+              type="checkbox"
+              name="Carnivoro"
+              id="Carnivoro"
+              value="Carnivoro"
+            />
 
-          <label for="Herbivoro" >Herbivoro</label>
-          <input type="checkbox"name="Herbivoro" id="Herbivoro" value="Herbivoro" />
+            <label for="Herbivoro">Herbívoro</label>
+            <input
+              type="checkbox"
+              name="Herbivoro"
+              id="Herbivoro"
+              value="Herbivoro"
+            />
 
-          <label for="Agressivo" >Agressivo</label>
-          <input type="checkbox" name="Agressivo" id="Agressivo" value="Agressivo" />
+            <label for="Agressivo">Agressivo</label>
+            <input
+              type="checkbox"
+              name="Agressivo"
+              id="Agressivo"
+              value="Agressivo"
+            />
 
-          <label for="Venenoso" >Venenoso</label>
-          <input type="checkbox" name="Venenoso" id="Venenoso" value="Venenoso"/>
+            <label for="Venenoso">Venenoso</label>
+            <input
+              type="checkbox"
+              name="Venenoso"
+              id="Venenoso"
+              value="Venenoso"
+            />
           </fieldset>
         </section>
       </form>
+
       <section id="ilustracao">
-        <img src="animals-floating-with-balloons-animate.svg" alt="Animação-Tarefas" id="ilustracao-img">
+        <img
+          src="animals-floating-with-balloons-animate.svg"
+          alt="Animação de animais com balões"
+          id="ilustracao-img"
+        />
       </section>
     </main>
-    
   </body>
 </html>
